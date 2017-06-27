@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		041151081F028A8200447249 /* IOSAnimationDemo in Resources */ = {isa = PBXBuildFile; fileRef = 041151071F028A8200447249 /* IOSAnimationDemo */; };
+		048F1F241EFF6ABF00B1949F /* OpacityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048F1F231EFF6ABF00B1949F /* OpacityViewController.swift */; };
+		048F1F261EFF6F2200B1949F /* ScaleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048F1F251EFF6F2200B1949F /* ScaleViewController.swift */; };
+		04CD14FD1EFFBB1200FEC1F6 /* ColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CD14FC1EFFBB1200FEC1F6 /* ColorViewController.swift */; };
+		04CD14FF1EFFD7F600FEC1F6 /* RotationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CD14FE1EFFD7F600FEC1F6 /* RotationViewController.swift */; };
 		04F6C8901EFDD7F200CC0EC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F6C88F1EFDD7F200CC0EC0 /* AppDelegate.swift */; };
 		04F6C8921EFDD7F200CC0EC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F6C8911EFDD7F200CC0EC0 /* ViewController.swift */; };
 		04F6C8951EFDD7F200CC0EC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F6C8931EFDD7F200CC0EC0 /* Main.storyboard */; };
@@ -14,6 +19,7 @@
 		04F6C89A1EFDD7F200CC0EC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F6C8981EFDD7F200CC0EC0 /* LaunchScreen.storyboard */; };
 		04F6C8A51EFDD7F300CC0EC0 /* IOSAnimationDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F6C8A41EFDD7F300CC0EC0 /* IOSAnimationDemoTests.swift */; };
 		04F6C8B01EFDD7F300CC0EC0 /* IOSAnimationDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F6C8AF1EFDD7F300CC0EC0 /* IOSAnimationDemoUITests.swift */; };
+		04F6C8BE1EFDDB9000CC0EC0 /* PositionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F6C8BD1EFDDB9000CC0EC0 /* PositionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		041151071F028A8200447249 /* IOSAnimationDemo */ = {isa = PBXFileReference; lastKnownFileType = folder; name = IOSAnimationDemo; sourceTree = "<group>"; };
+		048F1F231EFF6ABF00B1949F /* OpacityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpacityViewController.swift; sourceTree = "<group>"; };
+		048F1F251EFF6F2200B1949F /* ScaleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScaleViewController.swift; sourceTree = "<group>"; };
+		04CD14FC1EFFBB1200FEC1F6 /* ColorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorViewController.swift; sourceTree = "<group>"; };
+		04CD14FE1EFFD7F600FEC1F6 /* RotationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RotationViewController.swift; sourceTree = "<group>"; };
 		04F6C88C1EFDD7F200CC0EC0 /* IOSAnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSAnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F6C88F1EFDD7F200CC0EC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04F6C8911EFDD7F200CC0EC0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,7 @@
 		04F6C8AB1EFDD7F300CC0EC0 /* IOSAnimationDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOSAnimationDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F6C8AF1EFDD7F300CC0EC0 /* IOSAnimationDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSAnimationDemoUITests.swift; sourceTree = "<group>"; };
 		04F6C8B11EFDD7F300CC0EC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04F6C8BD1EFDDB9000CC0EC0 /* PositionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PositionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +111,12 @@
 			children = (
 				04F6C88F1EFDD7F200CC0EC0 /* AppDelegate.swift */,
 				04F6C8911EFDD7F200CC0EC0 /* ViewController.swift */,
+				04F6C8BD1EFDDB9000CC0EC0 /* PositionViewController.swift */,
+				048F1F231EFF6ABF00B1949F /* OpacityViewController.swift */,
+				048F1F251EFF6F2200B1949F /* ScaleViewController.swift */,
+				041151071F028A8200447249 /* IOSAnimationDemo */,
+				04CD14FC1EFFBB1200FEC1F6 /* ColorViewController.swift */,
+				04CD14FE1EFFD7F600FEC1F6 /* RotationViewController.swift */,
 				04F6C8931EFDD7F200CC0EC0 /* Main.storyboard */,
 				04F6C8961EFDD7F200CC0EC0 /* Assets.xcassets */,
 				04F6C8981EFDD7F200CC0EC0 /* LaunchScreen.storyboard */,
@@ -235,6 +253,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				041151081F028A8200447249 /* IOSAnimationDemo in Resources */,
 				04F6C89A1EFDD7F200CC0EC0 /* LaunchScreen.storyboard in Resources */,
 				04F6C8971EFDD7F200CC0EC0 /* Assets.xcassets in Resources */,
 				04F6C8951EFDD7F200CC0EC0 /* Main.storyboard in Resources */,
@@ -262,7 +281,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04F6C8BE1EFDDB9000CC0EC0 /* PositionViewController.swift in Sources */,
+				048F1F261EFF6F2200B1949F /* ScaleViewController.swift in Sources */,
 				04F6C8921EFDD7F200CC0EC0 /* ViewController.swift in Sources */,
+				048F1F241EFF6ABF00B1949F /* OpacityViewController.swift in Sources */,
+				04CD14FF1EFFD7F600FEC1F6 /* RotationViewController.swift in Sources */,
+				04CD14FD1EFFBB1200FEC1F6 /* ColorViewController.swift in Sources */,
 				04F6C8901EFDD7F200CC0EC0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -516,6 +540,7 @@
 				04F6C8B61EFDD7F300CC0EC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04F6C8B71EFDD7F300CC0EC0 /* Build configuration list for PBXNativeTarget "IOSAnimationDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +549,7 @@
 				04F6C8B91EFDD7F300CC0EC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04F6C8BA1EFDD7F300CC0EC0 /* Build configuration list for PBXNativeTarget "IOSAnimationDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +558,7 @@
 				04F6C8BC1EFDD7F300CC0EC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
